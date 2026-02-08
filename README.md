@@ -282,7 +282,9 @@ The FastAPI application loads the serialized sklearn Pipeline and exposes a `/pr
 }
 ```
 
+<a href="https://res.cloudinary.com/doetqiwsa/video/upload/v1770533880/recording_2026-02-08T06-44-11-408Z_op6hif.webm">
 <img width="1086" height="576" alt="Image" src="https://github.com/user-attachments/assets/f92e316f-fc74-411e-b9d2-9b789b670894" />
+</a>
 
 ---
 
