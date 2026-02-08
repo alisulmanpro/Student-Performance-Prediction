@@ -145,7 +145,7 @@ Model evaluation scripts (`src/evaluate.py`) produce MAE, RMSE and R² metrics.
 
 <!-- PLACEHOLDER: Add model performance chart -->
 
-<img width="1280" height="619" alt="Image" src="https://github.com/user-attachments/assets/80650f5f-26bd-4db0-a7a1-1c8ee94ce504" />
+<img width="1086" height="460" alt="Image" src="https://github.com/user-attachments/assets/89be779a-cadd-4435-9e40-b0e849a87606" />
 
 ---
 
@@ -282,7 +282,7 @@ The FastAPI application loads the serialized sklearn Pipeline and exposes a `/pr
 }
 ```
 
-**PLACEHOLDER: Add demo GIF showing /docs usage and a sample prediction**
+<img width="1086" height="576" alt="Image" src="https://github.com/user-attachments/assets/f92e316f-fc74-411e-b9d2-9b789b670894" />
 
 ---
 
