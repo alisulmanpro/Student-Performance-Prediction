@@ -1,41 +1,47 @@
-# Byte-compiled / optimized / DLL files
+# --- Python & Environment ---
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Virtual Environments (Standard & uv)
 .venv/
 venv/
-ENV/
 env/
+bin/
+lib/
 
-# uv specific
-.pdm-python
-.python-version
+# --- Machine Learning Artifacts ---
+# Ignore large datasets (Better to use DVC for these)
+data/
+*.csv
+*.parquet
+*.h5
 
-# Environment variables (Sensitive info)
+# Ignore trained models/weights
+models/*.pkl
+models/*.joblib
+models/*.pth
+models/*.onnx
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- FastAPI & Backend ---
 .env
-.env.*
-!.env.example
-
-# PyCharm / JetBrains
-.idea/
-*.iml
-
-# FastAPI / Python logs
 *.log
+*.db
+*.sqlite3
+
+# --- Tools & IDEs ---
+.vscode/
+.idea/
+.DS_Store
 .pytest_cache/
 .coverage
 htmlcov/
 
-# OS specific
-.DS_Store
-Thumbs.db
+# --- JetBrains (PyCharm) ---
+*.iws
+out/
 
-# SQLite databases
-*.sqlite3
-*.db
-
-uv.lock
-
-data/*
+# --- UV / Python Environment ---
+.python-version  # (Optional: keep if you want team-wide Python sync)
